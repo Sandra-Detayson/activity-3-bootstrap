@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../BOOSTRAP/css/bootstrap.min.css">
+</head>
+<body>
+   
+   <div clas="container">
+        <h1>THIS IS THE FIRST BOOSTRAP </h1>
+        <p>By: JEREMIE R. ROBLES</p>
+   </div>
+
+   <div class="container-fluid">
+    <h1>My First Bootstrap Page</h1>
+    <p>class .container-fluid is a full width container, spanning the entire width of the viewport</p> 
+  </div>
+  <br><br>
+
+
+  <div class="row">
+        <div class="col bg-danger">col 4</div>
+        <div class="col bg-success" >col 4</div>
+        <div class="col bg-warning">col 4</div>
+  </div>
+   <br><br>
+  <!--THIS IS FOR SMALL DEVICES-->
+  <div class="row">
+    <div class="col-sm-3 bg-success">.col-sm-3</div>
+    <div class="col-sm-3 bg-danger">.col-sm-3</div>
+    <div class="col-sm-3 bg-primary">.col-sm-3</div>
+    <div class="col-sm-3 bg-warning">.col-sm-3</div>
+  </div>
+   
+  <!--DIFFERENT SIZE OF COLUMN-->
+  <br><br>
+  <div class="row">
+    <div class="col-md-4 bg-success">.col-sm-4</div>
+    <div class="col-md-8 bg-danger">.col-sm-8</div>
+  </div>
+<br>
+<p class="h1">h1 Bootstrap heading</p>
+<p class="h2">h2 Bootstrap heading</p>
+<p class="h3">h3 Bootstrap heading</p>
+<p class="h4">h4 Bootstrap heading</p>
+<p class="h5">h5 Bootstrap heading</p>
+<p class="h6">h6 Bootstrap heading</p>
+
+
+<br>
+
+<h1 class="display-1">Display 1</h1>
+<h1 class="display-2">Display 2</h1>
+<h1 class="display-3">Display 3</h1>
+<h1 class="display-4">Display 4</h1>
+<h1 class="display-5">Display 5</h1>
+<h1 class="display-6">Display 6</h1>
+
+<!--TEXT PROPERTIES-->
+
+<div class="container mt-3">
+    <h2>Contextual Colors</h2>
+    <p>Use the contextual classes to provide "meaning through colors":</p>
+    <p class="text-muted">This text is muted.</p>
+    <p class="text-primary">This text is important.</p>
+    <p class="text-success">This text indicates success.</p>
+    <p class="text-info">This text represents some information.</p>
+    <p class="text-warning">This text represents a warning.</p>
+    <p class="text-danger">This text represents danger.</p>
+    <p class="text-secondary">Secondary text.</p>
+    <p class="text-dark">This text is dark grey.</p>
+    <p class="text-body">Default body color (often black).</p>
+    <p class="text-light">This text is light grey (on white background).</p>
+    <p class="text-white">This text is white (on white background).</p>
+  </div>
+
+<!--BACKGROUND COLOR-->
+<div class="container mt-3">
+    <h2>Contextual Backgrounds</h2>
+    <p>Use the contextual background classes to provide "meaning through colors".</p>
+    <div class="bg-primary p-5"></div> <!--p-1 - p-5 is equal to the padding of the division-->
+    <div class="bg-success p-3"></div>
+    <div class="bg-info p-3"></div>
+    <div class="bg-warning p-3"></div>
+    <div class="bg-danger p-3"></div>
+    <div class="bg-secondary p-3"></div>
+    <div class="bg-dark p-3"></div>
+    <div class="bg-light p-3"></div>
+</div>
+  <br><br>
+
+  <!--TEXT COLOR-->
+
+
+  <div class="container ">
+    <h2>Background Color with Contrasting Text Color</h2>
+    <p class="text-bg-primary p-3 h3">This text is important.</p>
+    <p class="text-bg-success display-2 p-4">This text indicates success.</p>
+    <p class="text-bg-info">This text represents some information.</p>
+    <p class="text-bg-warning">This text represents a warning.</p>
+    <p class="text-bg-danger">This text represents danger.</p>
+    <p class="text-bg-secondary">Secondary background color.</p>
+    <p class="text-bg-dark">Dark grey background color.</p>
+    <p class="text-bg-light">Light grey background color.</p>
+  </div>
+
+  <br><br>
+  <p class="text-bg-success display-4 p-3" style="text-align:center;">TABLE</p>
+
+  <br><br>
+
+  <div class="container mt-3">
+    <h2 class="text-success">Basic Table</h2>
+    <p>The .table class adds basic styling (light padding and horizontal dividers) to a table:</p>      
+    <table class="table" data-bs-theme="dark">
+        <thead>
+            <tr>
+                <th class="bg-success h5 text-white">FIRST NAME</th>
+                <th class="bg-success h5 text-white">COURSE</th>
+                <th class="bg-success h5 text-white">GENDER</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>JEREMIE</td>
+                <td>BSIS</td>
+                <td>MALE</td>
+            </tr>
+            <tr>
+                <td>LORIEBENN</td>
+                <td>BSIS</td>
+                <td>FEMALE</td>
+            </tr>
+            <tr>
+                <td>ALYZA</td>
+                <td>BSIS</td>
+                <td>MALE</td>
+            </tr>
+            <tr>
+                <td>PAMELA</td>
+                <td>BSIS</td>
+                <td>MALE</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<br><br>
+
+
+
+  <div class="container mt-3 table-responsive">
+        <h2 class="text-success">Basic Table Stripped</h2>
+        <p>The .table class adds basic styling (light padding and horizontal dividers) to a table:</p>      
+        <table class="table table-hover table-striped">
+            <thead class="table-dark h5 text-white">
+                <tr class="">
+                    <th class="">FIRST NAME</th>
+                    <th class="">COURSE</th>
+                    <th class="">GENDER</th>
+                </tr>
+            </thead>
+            <tbody class="">
+                <tr>
+                    <td>JEREMIE</td>
+                    <td>BSIS</td>
+                    <td>MALE</td>
+                </tr>
+                <tr class="table-danger">
+                    <td>LORIEBENN</td>
+                    <td>BSIS</td>
+                    <td>FEMALE</td>
+                </tr>
+                <tr>
+                    <td>ALYZA</td>
+                    <td>BSIS</td>
+                    <td>MALE</td>
+                </tr>
+                <tr>
+                    <td>PAMELA</td>
+                    <td>BSIS</td>
+                    <td>MALE</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+        <br><br>
+<p class="text-bg-success display-4 p-3" style="text-align:center;">IMAGES</p>
+      
+<div class="container mt-3">
+    <div class="row">
+        <div class="col-md-3 p-4"> <img src="img/1.jpg" class="rounded" alt="Cinque Terre" width="300px" height="300px"></div>
+        <div class="col-md-3 p-4" > <img src="img/2.jpg" class="rounded-circle" alt="Cinque Terre" width="300px" height="300px"></div>
+        <div class="col-md-3 p-4"> <img src="img/3.jpg" class="img-thumbnail" alt="Cinque Terre" width="300px" height="300px"></div>
+    </div>
+   
+</div>
+
+
+<div class="mt-4 p-5 bg-success text-white rounded">
+    <h1>Jumbotron Example</h1>
+    <p>THIS IS THE SAMPLE CONTENT AND INFORMATION</p>
+    <p class="display-5">COLLEGE OF INFORMATION AND COMPUTING SCIENCES</p>
+    
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-md-3 p-4"> <img src="img/1.jpg" class="rounded" alt="Cinque Terre" width="300px" height="300px"></div>
+            <div class="col-md-3 p-4" > <img src="img/2.jpg" class="rounded-circle" alt="Cinque Terre" width="300px" height="300px"></div>
+            <div class="col-md-3 p-4"> <img src="img/3.jpg" class="img-thumbnail" alt="Cinque Terre" width="300px" height="300px"></div>
+        </div>
+    </div>
+</div>
+
+
+<br><br>
+<p class="text-bg-success display-4 p-3" style="text-align:center;">THIS IS THE ALERT</p>
+      
+<div class="container mt-3">
+    <h2>Alerts</h2>
+    <p>Alerts are created with the .alert class, followed by a contextual color classes:</p>
+    <div class="alert alert-success">
+      <strong>Success!</strong> This alert box could indicate a successful or positive action.
+    </div>
+    <div class="alert alert-info">
+      <strong>Info!</strong> This alert box could indicate a neutral informative change or action.
+    </div>
+    <div class="alert alert-warning">
+      <strong>Warning!</strong> This alert box could indicate a warning that might need attention.
+    </div>
+    <div class="alert alert-danger">
+      <strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
+    </div>
+    <div class="alert alert-primary">
+      <strong>Primary!</strong> Indicates an important action.
+    </div>
+    <div class="alert alert-secondary">
+      <strong>Secondary!</strong> Indicates a slightly less important action.
+    </div>
+    <div class="alert alert-dark">
+      <strong>Dark!</strong> Dark grey alert.
+    </div>
+    <div class="alert alert-light">
+      <strong>Light!</strong> Light grey alert.
+    </div>
+</div>
+
+<hr>
+
+<br><br>
+<p class="text-bg-success display-4 p-3" style="text-align:center;">BUTTON PROPERTIES AND FUNCTIONS</p>
+      
+
+<div class="container mt-3">
+    <h2>Button Styles</h2>
+    <button type="button" class="btn">Basic</button>
+    <button type="button" class="btn btn-">Primary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-link">Link</button> 
+    <hr>
+    <a href="#" class="btn btn-success">Link Button</a>
+  <button type="button" class="btn btn-success">Button</button>
+  <input type="button" class="btn btn-success" value="Input Button">
+  <input type="submit" class="btn btn-success" value="Submit Button">
+  <input type="reset" class="btn btn-success" value="Reset Button">
+  
+  
+  <hr>
+  <button type="button" class="btn btn-outline-primary">Primary</button>
+  <button type="button" class="btn btn-outline-secondary">Secondary</button>
+  <button type="button" class="btn btn-outline-success">Success</button>
+  <button type="button" class="btn btn-outline-info">Info</button>
+  <button type="button" class="btn btn-outline-warning">Warning</button>
+  <button type="button" class="btn btn-outline-danger">Danger</button>
+  <button type="button" class="btn btn-outline-dark">Dark</button>
+  <button type="button" class="btn btn-outline-light text-dark">Light</button>
+  
+  <hr>
+  <div class="d-grid">
+    <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
+  </div>
+  
+  <hr>
+  <button type="button" class="btn btn-primary active">Active Primary</button>
+  <button type="button" class="btn btn-primary" disabled>Disabled Primary</button>
+  <a href="#" class="btn btn-primary disabled" >Disabled Link</a>
+  
+  <hr>
+  <button class="btn btn-primary">
+    <span class="spinner-border spinner-border-sm"></span>
+  </button>
+  
+  <button class="btn btn-danger">
+    <span class="spinner-border spinner-border-sm"></span>
+    Loading..
+  </button>
+  
+  <button class="btn btn-success" disabled>
+    <span class="spinner-border spinner-border-sm"></span>
+    Initializing..
+  </button>
+  
+  <button class="btn btn-primary" disabled>
+    <span class="spinner-grow spinner-grow-sm"></span>
+    Loading..
+  </button>
+  </div>
+
+  <hr>
+  <p class="text-bg-success display-4 p-3" style="text-align:center;">BUTTON GROUPS</p>
+  
+  <div class="container mt-3">
+    <h2>Button Group</h2>
+    <p>Button groups are "inline" by default, which makes them appear side by side when you have multiple groups:</p>
+    
+    <div class="btn-group-vertical btn-group-lg">
+      <button type="button" class="btn btn-success">Apple</button>
+      <button type="button" class="btn btn-success">Samsung Messages <span class="badge bg-danger">10</span></button>
+      <button type="button" class="btn btn-success">SonyMessages <span class="badge bg-warning">4</span></button>
+    </div>
+
+
+    <div class="btn-group">
+      <button type="button" class="btn btn-primary">BMW</button>
+      <button type="button" class="btn btn-primary">Mercedes</button>
+      <button type="button" class="btn btn-primary">Volvo</button>
+    </div>
+
+    <div class="btn-group">
+        <button type="button" class="btn btn-primary">BMW</button>
+        <button type="button" class="btn btn-primary">Mercedes</button>
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">VOLVO</button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Tablet</a>
+              <a class="dropdown-item" href="#">Smartphone</a>
+            </div>
+        </div>
+    </div>
+
+  </div> 
+  
+  <hr>
+  <p class="text-bg-success display-4 p-3" style="text-align:center;">BADGE</p>
+  
+  <div class="container mt-3">
+    <h2>Contextual Badges</h2>
+    <span class="badge bg-primary">Primary</span>
+    <span class="badge bg-secondary">Secondary</span>
+    <span class="badge bg-success">Success</span>
+    <span class="badge bg-danger">Danger</span>
+    <span class="badge bg-warning">Warning</span>
+    <span class="badge bg-info">Info</span>
+    <span class="badge bg-light">Light</span>
+    <span class="badge bg-dark">Dark</span>
+    <hr>
+    <span class="badge rounded-pill bg-primary">Primary</span>
+    <span class="badge rounded-pill bg-secondary">Secondary</span>
+    <span class="badge rounded-pill bg-success">Success</span>
+    <span class="badge rounded-pill bg-danger">Danger</span>
+    <span class="badge rounded-pill bg-warning">Warning</span>
+    <span class="badge rounded-pill bg-info">Info</span>
+    <span class="badge rounded-pill bg-light">Light</span>
+    <span class="badge rounded-pill bg-dark">Dark</span>
+ 
+  <hr>
+  <button type="button" class="btn btn-primary">
+    Messages <span class="badge bg-danger">4</span>
+  </button>
+</div>
+
+<hr>
+  <p class="text-bg-success display-4 p-3" style="text-align:center;">PROGRESS BAR</p>
+  
+  <div class="container mt-3">
+    <h2>Striped Progress Bars</h2>
+    <p>The .progress-bar-striped class adds stripes to the progress bars:</p> 
+    <div class="progress">
+      <div class="progress-bar" style="width:30%"></div>
+    </div>
+    <br>
+    <div class="progress">
+      <div class="progress-bar bg-success progress-bar-striped" style="width:40%"></div>
+    </div>
+    <br>
+    <div class="progress">
+      <div class="progress-bar bg-info progress-bar-striped" style="width:50%"></div>
+    </div>
+    <br>
+    <div class="progress">
+      <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" style="width:60%"></div>
+    </div>
+    <br>
+    <div class="progress">
+      <div class="progress-bar bg-danger progress-bar-striped" style="width:70%"></div>
+    </div>  
+    <hr><br>
+    <div class="progress">
+        <div class="progress-bar bg-success" style="width:40%">
+          Free Space
+        </div>
+        <div class="progress-bar bg-warning" style="width:10%">
+          Warning
+        </div>
+        <div class="progress-bar bg-danger" style="width:20%">
+          Danger
+        </div>
+      </div>
+
+
+  </div>
+
+
+  <hr>
+  <p class="text-bg-success display-4 p-3" style="text-align:center;">SPINER</p>
+  <div class="container mt-3">
+    <div class="spinner-border text-muted"></div>
+    <div class="spinner-border text-primary"></div>
+    <div class="spinner-border text-success"></div>
+    <div class="spinner-border text-info"></div>
+    <div class="spinner-border text-warning"></div>
+    <div class="spinner-border text-danger"></div>
+    <div class="spinner-border text-secondary"></div>
+    <div class="spinner-border text-dark"></div>
+    <div class="spinner-border text-light"></div>
+
+    <hr><br>
+    <div class="spinner-grow text-muted"></div>
+    <div class="spinner-grow text-primary"></div>
+    <div class="spinner-grow text-success"></div>
+    <div class="spinner-grow text-info"></div>
+    <div class="spinner-grow text-warning"></div>
+    <div class="spinner-grow text-danger"></div>
+    <div class="spinner-grow text-secondary"></div>
+    <div class="spinner-grow text-dark"></div>
+    <div class="spinner-grow text-light"></div>
+    <!--Use .spinner-border-sm or .spinner-grow-sm to create a smaller spinner:-->
+    <div class="spinner-border spinner-border-sm"></div>
+    <div class="spinner-grow spinner-grow-sm"></div>
+    <hr><br>
+    <button class="btn btn-primary">
+        <span class="spinner-border spinner-border-sm"></span>
+      </button>
+      
+      <button class="btn btn-primary">
+        <span class="spinner-border spinner-border-sm"></span>
+        Loading..
+      </button>
+      
+      <button class="btn btn-primary" disabled>
+        <span class="spinner-border spinner-border-sm"></span>
+        Loading..
+      </button>
+      
+      <button class="btn btn-primary" disabled>
+        <span class="spinner-grow spinner-grow-sm"></span>
+        Loading..
+      </button>
+      
+  </div>
+
+  <hr><br>
+  <p class="text-bg-success display-4 p-3" style="text-align:center;">PAGINATION</p>
+  <div class="container mt-3">
+    <h2>Pagination - Sizing</h2>
+    <p>Add class .pagination-lg for larger blocks or .pagination-sm for smaller blocks.</p>
+  
+    <p>Large:</p>
+    <ul class="pagination pagination-lg">
+      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+  
+    <p>Default:</p>
+    <ul class="pagination">
+      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+  
+    <p>Small:</p>
+    <ul class="pagination pagination-sm">
+      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+  </div>
+
+  <hr><br>
+  <hr><br>
+  <p class="text-bg-success display-4 p-3" style="text-align:center;">LIST GROUP</p>
+
+  <div class="container mt-3">
+    <h2>List Group With Badges</h2>
+    <p>Combine .badge classes with utility/helper classes to add badges inside the list group:</p>
+    <ul class="list-group">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Inbox
+        <span class="badge bg-primary rounded-pill">12</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Ads
+        <span class="badge bg-success rounded-pill">50</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Junk
+        <span class="badge bg-danger rounded-pill">99</span>
+      </li>
+    </ul>
+</div>
+    <hr><br>
+    <p class="text-bg-success display-4 p-3" style="text-align:center;">NAVIGATION GROUP</p>
+    <div class="container mt-3">
+        <h2>Nav</h2>
+        <p>Left-aligned nav (default):</p>
+        <ul class="nav bg-warning">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        
+        <p class="text-center">Centered nav:</p>
+        <ul class="nav justify-content-center bg-danger">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+          
+        <p class="text-end">Right-aligned nav:</p>
+        <ul class="nav justify-content-end bg-success">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+    </div>
+
+
+    <div class="container mt-3">
+        <h3>Colored Navbar</h3>
+        <p>Use any of the .bg-color classes to add a background color to the navbar.</p>
+        <p>Tip: Add a white text color to all links in the navbar with the .navbar-dark class, or use the .navbar-light class to add a black text color.</p>
+      </div>
+      
+      <nav class="navbar navbar-expand-sm bg-light navbar-light ">
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark p-3">
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+      <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+      <nav class="navbar navbar-expand-sm bg-success navbar-dark">
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+      <nav class="navbar navbar-expand-sm bg-info navbar-dark">
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+      <nav class="navbar navbar-expand-sm bg-warning navbar-dark">
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+      <nav class="navbar navbar-expand-sm bg-danger navbar-dark">
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+      <nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="javascript:void(0)">Logo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto text-white">
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Link</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-outline-success" type="button">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    
+      
+
+
+      <hr><br>
+      <p class="text-bg-success display-4 p-3" style="text-align:center;">CAROUSEL</p>
+    <!-- Carousel -->
+<div id="example" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#example" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#example" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#example" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#example" data-bs-slide-to="3"></button>
+    </div>
+    
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/1.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="img/2.jpg" alt="Chicago" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="img/3.jpg" alt="New York" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="img/3.jpg" alt="New York" class="d-block" style="width:100%">
+      </div>
+    </div>
+    
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#example" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#example" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+
+<div class="container-fluid mt-3">
+  <h3>Carousel Example</h3>
+  <button type="submit" class="btn btn-success">Read More...<span class="fa fa-arrow-right"></span></button>
+  <p>The following example shows how to create a basic carousel with indicators and controls.</p>
+</div>
+
+
+
+
+<hr><br><br><br><br>
+<p class="text-bg-success display-4 p-3" style="text-align:center;">MODAL</p>
+
+
+<div class="container mt-3">
+  <h3>Modal Example</h3>
+  <p>Click on the button to open the modal.</p>
+  
+  <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#myModal">
+    Open modal
+  </button>
+
+
+  <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#customizedModal">
+    Customized Modal
+  </button>
+
+</div>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Modal Heading</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        Modal body..
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<!--CUSTOMIZED MODAL-->
+
+
+<!-- The Modal -->
+<div class="modal fade" id="customizedModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header bg-danger">
+        <h4 class="modal-title" style="color:white;">Customized Modal</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+       <p>Username:</p>
+       <input type="text" class="form-control" >
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-danger">Save</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+   
+<hr><br><br><br><br>
+<p class="text-bg-success display-4 p-3" style="text-align:center;">TOOLTIP</p>
+
+<div class="container mt-3">
+  <h3>Tooltip Positioning</h3>
+  <p>The data-bs-placement attribute specifies the tooltip position.</p>
+  <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="This will view your profile or account information on the system" class="btn btn-danger">View Profile</a>
+  <a href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Hooray!" class="btn btn-success">Bottom</a>
+  <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Hooray!" class="btn btn-warning">Left</a>
+  <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="Hooray!" class="btn btn-primary">Right</a>
+</div>
+
+
+<hr><br><br><br><br>
+<p class="text-bg-success display-4 p-3" style="text-align:center;">POP UP OVER</p>
+<div class="container mt-3">
+  <h3>Dismissible Popover</h3>
+  
+  <a href="#" title="Dismissible popover" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-content="Click anywhere in the document to close this popover">Click me</a>
+</div>
+
+<a href="#" title="JEREMIE ROBLES" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="College of Information and Computing Sciences">Hover over me</a>
+
+
+<hr><br><br><br><br>
+<p class="text-bg-success display-4 p-3" style="text-align:center;">TOAST</p>
+
+
+<div class="container mt-3">
+  <h3>Toast Example</h3>
+  <p>A toast is like an alert box that is only shown for a couple of seconds when something happens (i.e. when a user clicks on a button, submits a form, etc.).</p>
+  <p>In this example, we use the .show class to always show the toast by default. You can close it by clicking on the close (x) icon inside the toast header.</p>
+  
+  <div class="toast show">
+    <div class="toast-header">
+      <strong class="me-auto">Toast Header</strong>
+      <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+    </div>
+    <div class="toast-body">
+      <p>Some text inside the toast body</p>
+    </div>
+  </div>
+</div>
+
+
+<!--HOVER THE TOAST-->
+<div class="container mt-3">
+  <h3>Toast Example</h3>
+  <p>In this example, we use a button to show the toast message.</p>
+
+  <button type="button" class="btn btn-success" id="toastpopup">Show Toast</button>
+  
+  <div class="toast">
+    <div class="toast-header">
+      <strong class="me-auto">Toast Header</strong>
+      <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+    </div>
+    <div class="toast-body">
+      <p>Some text inside the toast body</p>
+    </div>
+  </div>
+</div>
+
+<hr><br><br><br><br>
+<p class="text-bg-success display-4 p-3" style="text-align:center;">OFF CANVAS</p>
+
+
+<div class="offcanvas offcanvas-start" id="demo"> <!--start end top bottom-->
+  <div class="offcanvas-header bg-success">
+    <h1 class="offcanvas-title" style="color: white;">Heading</h1>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>Some text lorem ipsum.</p>
+    <p>Some text lorem ipsum.</p>
+    <p>Some text lorem ipsum.</p>
+    <button class="btn btn-success" type="button">OFF CANVAS Button</button>
+  </div>
+</div>
+
+<div class="container-fluid mt-3">
+  <h3>Offcanvas Sidebar</h3>
+  <p>Offcanvas is similar to modals, except that it is often used as a sidebar.</p>
+  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+    Open Offcanvas Sidebar
+  </button>
+</div>
+
+
+
+
+
+<hr><br><br><br><br>
+<p class="text-bg-success display-4 p-3" style="text-align:center;">FLEX</p>
+<div class="container mt-3">
+  <h2>Justify content</h2>
+  <p>Use the .justify-content-* classes to change the alignment of flex items. Choose from start (default), end, center, between or around:</p>
+  <div class="d-flex justify-content-start bg-secondary mb-3">
+    <div class="p-2 bg-info">Flex item 1</div>
+    <div class="p-2 bg-warning">Flex item 2</div>
+    <div class="p-2 bg-primary">Flex item 3</div>
+  </div>
+  <div class="d-flex justify-content-end bg-secondary mb-3">
+    <div class="p-2 bg-info">Flex item 1</div>
+    <div class="p-2 bg-warning">Flex item 2</div>
+    <div class="p-2 bg-primary">Flex item 3</div>
+  </div>
+  <div class="d-flex justify-content-center bg-secondary mb-3">
+    <div class="p-2 bg-info">Flex item 1</div>
+    <div class="p-2 bg-warning">Flex item 2</div>
+    <div class="p-2 bg-primary">Flex item 3</div>
+  </div>
+  <div class="d-flex justify-content-between bg-secondary mb-3">
+    <div class="p-2 bg-info">Flex item 1</div>
+    <div class="p-2 bg-warning">Flex item 2</div>
+    <div class="p-2 bg-primary">Flex item 3</div>
+  </div>
+  <div class="d-flex justify-content-around bg-secondary mb-3">
+    <div class="p-2 bg-info">Flex item 1</div>
+    <div class="p-2 bg-warning">Flex item 2</div>
+    <div class="p-2 bg-primary">Flex item 3</div>
+  </div>
+</div>
+
+    <script src="../BOOSTRAP/js/bootstrap.bundle.min.js"></script>
+    <script>
+      //TOOLTIP JAVASCRIPT
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+      })
+
+      //popover
+      var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+      var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl)
+      })
+
+      //TOAST
+      document.getElementById("toastpopup").onclick = function() {
+        var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+        var toastList = toastElList.map(function(toastEl) {
+          return new bootstrap.Toast(toastEl)
+        })
+        toastList.forEach(toast => toast.show()) 
+      }
+
+    </script>
+</body>
+</html>

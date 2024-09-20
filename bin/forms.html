@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../BOOSTRAP/css/bootstrap.min.css">
+</head>
+<body>
+    <hr>
+    <p class="text-bg-success display-5 p-2" style="text-align:center;">BOOTSTRAP FRAMEWORK 5 / FORMS</p>
+    <br>
+    <p class="text-bg-danger display-4" >Stack form</p>
+
+
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-5">
+                <form action="">
+                    <center>
+                        <p class="display-6 p-2 text-danger">DIVISION OF INPUT</p>
+                    </center>
+                 
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" class="form-control" name="fname" id="fname" placeholder="Enter Your Name">
+                        </div>
+                        <div class="col">
+                            <input type="password" class="form-control" name="pass" id="pass" placeholder="Enter Your Password">
+                        </div>
+                    </div><br>
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" class="form-control" name="fname" id="fname" placeholder="Enter Your Name">
+                        </div>
+                        <div class="col">
+                            <input type="password" class="form-control" name="pass" id="pass" placeholder="Enter Your Password">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <label for="browser" class="form-label">Choose your browser from the list:</label>
+                        <input class="form-control" list="browsers" name="browser" id="browser">
+                        <datalist id="browsers">
+                            <option value="Jeremie">
+                            <option value="Firefox">
+                            <option value="Chrome">
+                            <option value="Opera">
+                            <option value="Safari">
+                        </datalist>
+                    </div>
+                    <div class="row">
+                        <label for="customRange" class="form-label">Custom range</label>
+                        <input type="range" class="form-range" id="customRange" min="0" max="4">
+                    </div><br>
+                    <div class="row">
+                        <div class="input-group"><br>
+                            <span class="input-group-text">@</span>
+                            <input type="text" class="form-control" placeholder="Username">
+                        </div>
+                    </div><br>
+                    <div class="row">
+                        <div class="input-group">
+                            <span class="input-group-text">@</span>
+                            <input type="text" class="form-control" placeholder="Firstname">
+                            <input type="text" class="form-control" placeholder="Lastname">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-floating mb-3 mt-3">
+                            <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+                            <label for="email">Email</label>
+                          </div>
+                    </div>
+
+                    <div class="row">
+                        <label for="">File folder</label>
+                        <input type="file" class="form-control" name="file" id="file">
+                    </div><br>
+                    <div class="row">
+                        <button type="submit" class="btn btn-danger">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-3">
+                <h2 class="text-success">Stacked form</h2>
+                <form action="/formredirect.html">
+                <div class="mb-3 mt-3">
+                    <label for="email">Email*:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="pwd">Password*:</label>
+                    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+                </div>
+                <div class="mb-3">
+                    <label for="pwd">Date*:</label>
+                    <input type="date" class="form-control" id="dateofbirth" placeholder="Enter password" name="dateofbirth" required>
+                </div>
+                <div class="mb-3">
+                    <label for="pwd">Text Area:</label>
+                   <textarea class="form-control" name="textArea" id="textArea" cols="30" rows="10"></textarea>
+                </div>
+                <div class="form-check mb-3">
+                    <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-success">Submit</button>
+                </form>
+            </div>
+
+            <div class="col-4">
+                <h2 class="text-success">NUMBER</h2>
+                <form action="">
+                <div class="mb-3 mt-3">
+                    <label for="email">Number:</label>
+                    <input type="number" class="form-control" id="email" placeholder="Input a Number" name="email" readonly>
+                </div>
+                <div class="mb-3">
+                    <label for="pwd">Password:</label>
+                    <input type="time" class="form-control" id="pwd" placeholder="Enter password" name="pswd" disabled >
+                </div>
+                <div class="mb-3">
+                    <label for="pwd">CheckBox:</label>
+                   <select name="check1" id="check1" class="form-control">
+                        <option value="" disabled selected>--SELECT YOUR GENDER--</option>
+                        <option value="1">Female</option>
+                        <option value="2">Male</option>
+                   </select>
+                </div>
+                <div class="form-check mb-3">
+                    <label for="">Select Status</label><br>
+                    <label class="form-radio-label">
+                        <input class="form-check-input" type="radio" name="remember" > Single
+                    </label><br>
+                    <label class="form-radio-label">
+                        <input class="form-check-input" type="radio" name="remember" checked> Married
+                    </label><br>
+                    <label class="form-radio-label">
+                        <input class="form-check-input" type="radio" name="remember"> Widow
+                    </label>
+                </div>
+
+                <div class="form-check mb-3">
+                    <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                    </label>
+                </div>
+                <div class="mb-3">
+                    <label for="pwd">Text:</label>
+                    <input type="text" class="form-control" id="pwd" placeholder="Enter your text" name="pswd">
+                </div>
+                <div class="mb-3">
+                    <label for="pwd">Color Picker:</label>
+                    <input type="color" class="form-control" id="pwd" placeholder="Enter your text" name="pswd">
+                </div>
+               
+                <button type="submit" class="btn btn-warning">Submit</button>
+                </form>
+            </div>
+        </div>
+        </div>
+
+
+      
+    <script src="../BOOSTRAP/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
